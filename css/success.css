@@ -1,7 +1,9 @@
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
 .content {
-    position:absolute;
-    top:50%;
-    margin:-130px 0 0 0px;
+    margin-top: 150px;
     width: 100%;
     height: 140px;
     text-align: center;
