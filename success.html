@@ -7,17 +7,15 @@
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/success.css">
 </head>
-<body>
+<body id="success-body">
 <div id="content" class="content">
     <img class="success-image" src="resource/success.png">
     <p class="prompt">提交成功，请您耐心等待PieHash官网上线</p>
 </div>
 <script type="text/javascript" src="/js/jquery-1.9.1.min.js"></script>
 <script type="text/javascript">
-    console.log($(window).height());
-    console.log($(document.body).height);
-    $(document.body).height = $(window).height();
-    console.log($(document.body).height);
+    $("#success-body").css("height",$(window).height());
+    console.log($("#success-body").height);
 </script>
 </body>
 </html>
